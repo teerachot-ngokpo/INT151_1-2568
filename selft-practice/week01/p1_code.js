@@ -29,5 +29,26 @@ function palindrome(word){
     const after = before.split().reverse().join("")
     return before === after
 }
-console.log(palindrome("aba"))
+
+function Whileloop(ar){
+    let core = ""
+    while(core != "yes"){
+        if (ar.length < 10){
+            ar.push("more");
+        }
+        else if (ar.length < 20){
+            ar.push("MORE");
+        } 
+        else if (ar.length < 25) {
+            ar.push("extra");
+        } 
+        else if (ar.length === 25) {
+            ar.push("enough");
+            core = "yes";
+        }
+        }
+        console.log(`${ar} = ${ar.length}`)
+    }
+let ar = []
+Whileloop(ar)
 

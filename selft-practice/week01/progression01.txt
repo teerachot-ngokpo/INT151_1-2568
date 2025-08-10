@@ -1,1 +1,11 @@
-test
+Week1 เป็นการฝึกเขียนคำสั่งเริ่มต้นให้คล่อง
+โดนจะมี function multiply เป็นการสร้างการคูณถึงแม่ 12 โดยใช้ forloop แบบปกติ
+function basket_fruit เป็นการตรวจ Array ว่ามี string ที่ชื่อ apple orange และ banana ไหม 
+โดยมีการใช้ forofloop เพื่อให้ตัวแปรแทนค่าตัวเองเป็นตัวใน string จากนั้นใช้ switc case เพื่อเป็นการฝึกใช้ condition ที่ผมไม่ค่อยได้ใช้
+function palindome เป็นการตรวจว่าคำๆนั้นเป็น palindome(คำที่กลังหลังก็ยังเป็นคำเดิม) ไหม หากใช่จะ return ออกมาเป็น true และไม่ใช่จะเป็น false
+โดยเป็นการฝึกการใช้ string และ array metod 
+function Whileloop เป็น whileloop ที่ต้องให้ค่า core เป็น yes ถึงจะหยุด 
+โดนการทำงานใน loop จะเป็นการเพิ่มค่า String ใส่ Array โดนอิงจากความยาว array นั้น หาก array นั้นยาวน้อยกว่า 10 จะเพิ่ม string "more" เข้าไป
+เมื่อน้อยกว่า 20 จะเพิ่ม string "MORE" เข้าไป เมื่อน้อยกว่า 25 จะพิม "extra" เข้าไป จากนั้นเมื่อความยาวเท่ากับ 25 จะเพิ่ม String "enogh" ต่อท้าย
+และปรับค่า core ให้เป็น yes เพื่อจบ whileloop และแสดง array และความยาว array นั้นออกมา โดน function เป็นการฝึกใช้ 
+whileloop ซึ่งเป็น loop ที่ผมไม่ค่อยได้ใช้และฝึกการใช้ if else condition 
