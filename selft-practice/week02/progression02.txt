@@ -1,0 +1,7 @@
+week02
+โจทย์ของ function นี้คือเปรียบเทียบความเหมือนกันของ object1 และ object2
+โดยใน function จะสร้างตัวแปร keys1 มาเก็บ key ทั้งหมดของ object1
+และ keys2 มาเก็บ key ทั้งหมดของ object2
+จากนั้นจะทำการตรวจสอบความยาวของ keys1 และ keys2 ว่ามีขนาด array เท่ากันไหม
+ถ้าไม่ให้ return false แต่ถ้าถูกให้ตรวจต่อว่าทั้งชื่อ key และ valueในkey ของ object1 และ object2
+เหมือนกันไหม ใน loop for ถ้าไม้ ให้ return false ถ้าถูกทั้งหมดให้ ออก loop แล้ว return true
