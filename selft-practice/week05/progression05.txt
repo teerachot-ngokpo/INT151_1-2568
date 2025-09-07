@@ -1,0 +1,15 @@
+week05
+
+โจทย์แรกคือการเรียงคะแนน math ของ student จากน้อยไปมาก
+โดยสร้าง function sortMath มี paramiter arr ที่รับตัวแปร array 
+จากนั้นนำ arr มาทำการ .sort((a,b) => a.mathScore - b.mathScore) 
+ให้ a และ b แทนค่าเป็น value ของ mathScore แต่ละตัวใน arr และให้ 
+a-b เพื่อเรียงจากน้อยไปมาก โดยการทำงานจะเป็น ถ้า  a-b แล้วค่าเป็นลบ a จะอยู่ข้างหน้า
+ถ้าเป็นบวก b จะอยู่ข้างหน้า a และถ้าเท่ากันจะคงตำแหน่งเดิมไว้
+
+โจทย์ที่สองคือการเรียงคะแนน science จากมากไปน้อยแทน
+โดยการสร้าง function sortScience มี paramiter arr ที่รับตัวแปร array เหมือนกัน
+แต่ function จะอยู่ในรูปของ arrow function
+โดยในการทำงานของ function จะคล้ายกับ sortMath โดยนำ arr มา .sort
+และแทนค่า aกับb เป็น value ของ scienceScore ที่ต่างกันคือ แทนที่จะเป็นการนำ
+a-b เป็น b-a แทนเพื่อเรียงจากมากไปน้อย

@@ -1,0 +1,11 @@
+week04
+โจทย์แรกคือการเก็บ function ไว้ใน object โดย function ที่ผมสร้างจะมี
+add ไว้บวกเลข  
+subtract ไว้ลบเลข
+multiply ไว้คูณเลข
+แล้วเก็บไว้ในตัวแปร operations
+
+โจทย์ที่สองคือการสร้าง function calculateStudentScores รับ paramiter student ที่เป็นประเภท array
+ในการแสดงข้อมูลนักเรียนได้แก่ StudentID,StudentName,totalScore,averageScore
+โดยการทำงานใน function จะเป็นการใช้ .map เพื่อทำ callback function จากนั้น
+สร้างตัวแปร SubjectScore 
